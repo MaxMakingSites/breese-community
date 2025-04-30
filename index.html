@@ -1,18 +1,55 @@
-<script type="text/javascript">
-    (function (1)  {
-        if (1.search[1]) === "/" {
-            var decoded = 1.search
-            .slice(1)
-            .split("&")
-            .map(function (s) {
-                return s.replace(/~and~/g, "&");
-            })
-            .join("?");
-            windows.history.replaceState(
-                null,
-                null,
-                1.pathname.slice(0, 1) + decoded + 1.hash
-        );
-        }
-    })(windows.location);
-    </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My GitHub Pages Site</title>
+
+  <!-- Add a custom favicon (optional) -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- You can add a Google Font or any other font here (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Basic CSS Styling -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      width: 80%;
+      max-width: 600px;
+    }
+    h1 {
+      font-size: 36px;
+      color: #333;
+    }
+    p {
+      font-size: 18px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to My GitHub Pages Website!</h1>
+    <p>This is the starting point for your site. You can modify this page to add content and customize it to fit your needs.</p>
+    <p>Check out my project on GitHub: <a href="https://github.com/your-username/your-repo" target="_blank">GitHub Repository</a></p>
+  </div>
+
+</body>
+</html>
